@@ -1,97 +1,125 @@
-<!-- 
-  欢迎! 这是一个为 GitHub 个人主页准备的 README 模板。
-  - 请将 `[Your Name]`、`[Your Job Title]` 等占位符替换为您的真实信息。
-  - 您可以随意删除或添加任何您认为需要的部分。
-  - 表情符号 (Emoji) 可以让您的主页更生动，可以从 https://getemoji.com/ 寻找灵感。
--->
+<h1 align="center">Hao Yunlai | Robotics Control & Embodied AI</h1>
 
+<p align="center">
+  <strong>Applied Physics undergraduate at SWJTU</strong><br/>
+  Robotics control, reinforcement learning, dynamics modeling, and embodied intelligence
+</p>
 
-<!-- 动态欢迎语 -->
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+Hao+%F0%9F%91%8B;A+Student;A+Robotics+Enthusiast;A+Motion+Control+Researcher" alt="Typing SVG" />
+<p align="center">
+  <a href="mailto:hyl00250083@outlook.com">
+    <img src="https://img.shields.io/badge/Email-hyl00250083-blue?style=flat-square&logo=microsoft-outlook" alt="Email" />
   </a>
-</h1>
-
-<p align="center">
-  <img src="image.png" width="200" alt="funny image"/>
-</p>
-
-<h3 align="center">我要当太空人 🚀</h3>
-<!-- 在这里添加一张横幅图片 -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Coding Banner"/>
-</p>
-
-<p align="center">
-  <a href="mailto:hyl00250083@outlook.com"><img src="https://img.shields.io/badge/Email-hyl00250083-blue?style=flat-square&logo=microsoft-outlook" alt="Email"></a>
-  <!-- 请将 [你的知乎链接] 和 [你的B站链接] 替换为你的真实链接 -->
-  <a href="[你的知乎链接]"><img src="https://img.shields.io/badge/知乎-blue?style=flat-square&logo=zhihu" alt="Zhihu"></a>
-  <a href="[你的B站链接]"><img src="https://img.shields.io/badge/Bilibili-pink?style=flat-square&logo=bilibili" alt="Bilibili"></a>
+  <img src="https://img.shields.io/badge/Focus-Robotics%20Control-2f80ed?style=flat-square" alt="Robotics Control" />
+  <img src="https://img.shields.io/badge/Focus-Sim2Real-27ae60?style=flat-square" alt="Sim2Real" />
+  <img src="https://img.shields.io/badge/Focus-Embodied%20AI-8e44ad?style=flat-square" alt="Embodied AI" />
 </p>
 
 ---
 
-<!-- "关于我" 部分 -->
-## 👨‍💻 关于我 (About Me)
+## About
 
-- 🎓 我是来自 **应用物理** 专业的大三学生。
-- 🔭 研究方向: **机器人学习** (让机器人动作更精准、更优雅)。
-- 🌱 正在学习: **最优控制、强化学习、机器人学、嵌入式**。
-- 🐧 **Arch Linux** 爱好者，享受高度定制的乐趣。
-- 🤖 乐意与对 **机器人** 感兴趣的伙伴交流。
-- 📫 联系我: <a href="mailto:hyl00250083@outlook.com">hyl00250083@outlook.com</a>
+I am a top-ranked undergraduate and national scholarship recipient from the School of Physical Science and Technology, Southwest Jiaotong University, working toward research in robotics and embodied intelligence.
+
+My current work starts from real robot control: building dynamics-aware policies, training reinforcement learning controllers in simulation, and moving them toward robust Sim2Real deployment. I am especially interested in how model-based control, reinforcement learning, world models, and vision-language-action systems can meet on physical robots.
+
+我是西南交通大学物理科学与技术学院应用物理方向本科生，具有较稳定的学业表现和国家级奖学金经历，主要关注机器人运动控制、强化学习、动力学建模与具身智能。我的长期目标是从可落地的机器人控制问题出发，逐步深入到 World Model、VLA 和通用机器人智能方向。
 
 ---
 
-<!-- "近期目标" 部分 -->
-## 🎯 近期目标 (Current Focus)
+## Research Interests
 
-- 🤖 **16Dof轮足机器人** 强化学习算法。
-- 🧠 **Isaac Sim/Lab** 机器人技能学习。
-- 📝 撰写 **机器人运动控制** 技术博客。
-
----
-
-<!-- 技术栈部分 (Grouped) -->
-## 🛠️ 技术栈 (Tech Stack)
-
-<div align="center">
-
-| Category | Skills |
+| Area | Keywords |
 | :--- | :--- |
-| **Languages** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,python,matlab,c" /></a> |
-| **Robotics & AI** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ros,pytorch,linux,github" /></a> |
-| **Tools** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,vscode,docker,arch" /></a> |
-
-</div>
+| Legged Locomotion | Quadruped control, locomotion policy, terrain adaptation, deployment |
+| Reinforcement Learning | PPO, RSL-RL, Isaac Lab, domain randomization, reward design |
+| Sim2Real Robotics | URDF modeling, actuator limits, sensor noise, real-time control |
+| Dynamics & Control | Robot dynamics, nonlinear systems, optimal control, model predictive control |
+| Sampling-Based Control | Model Predictive Path Integral, drift control, obstacle avoidance |
+| Embodied AI | World models, VLA, robot foundation models, vision-guided policy learning |
 
 ---
 
-<!-- Arch Linux 梗图 -->
-## 🐧 I Use Arch, btw
+## Featured Work
+
+### Quadruped Reinforcement Learning and Sim2Real
+
+Training locomotion policies for quadruped robots with Isaac Lab, PPO-style reinforcement learning, domain randomization, and robot deployment constraints in mind.
+
+- Built simulation assets and task pipelines around robot morphology, URDF configuration, observation design, and reward shaping.
+- Focused on robustness under model mismatch, actuator limits, terrain variation, and control frequency constraints.
+- Completed encouraging Sim2Real deployment results and am exploring the integration of visual perception with locomotion policies.
+
+### High-Speed Differential-Drive Drift Control
+
+Studying aggressive motion control for a high-speed four-wheel differential-drive robot under nonlinear tire dynamics.
+
+- Modeled tire-ground interaction with a nonlinear Brush Model.
+- Used MPPI to reason over drift control, tracking behavior, and obstacle avoidance in highly nonlinear regimes.
+- Working on turning the system study into a publishable robotics/control research contribution.
+
+### RoboCON Robot Control
+
+Worked on motion control and embedded implementation for a multi-DOF parallel robot in a national-level robotics competition team.
+
+- Responsible for electrical control and motion-control implementation of an 8-DOF parallel mechanism.
+- Built experience with ROS2, RK3588, STM32H7, multi-motor coordination, and real-time debugging.
+- Learned to connect control theory, embedded constraints, mechanical structure, and competition reliability under real hardware pressure.
+
+---
+
+## Technical Stack
+
+| Direction | Tools and Experience |
+| :--- | :--- |
+| Robotics | ROS2, robot deployment, multi-motor control, real-time debugging |
+| RL & Simulation | Isaac Lab, Isaac Sim, PPO, RSL-RL, PyTorch, domain randomization |
+| Control & Modeling | MPPI, nonlinear dynamics, Brush Model, MATLAB, Simulink, Simscape Multibody |
+| Embedded Systems | STM32H7, RK3588, C/C++, Linux-based robot systems |
+| Development | Python, C++, Git, Docker, Distrobox, Arch Linux, Ubuntu |
+
 <p align="center">
-  <img src="./archlinux.png " alt="I use arch btw" width="400"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,python,c,matlab,pytorch,ros,linux,docker,git,github,vscode,arch" alt="Skill icons" />
+  </a>
 </p>
 
 ---
 
-<!-- GitHub 统计数据 -->
-## 📊 GitHub Stats
+## Current Focus
+
+- Making reinforcement learning policies more deployable on real robots, not only successful in simulation.
+- Combining visual perception with locomotion/control policies for more general robot behavior.
+- Studying model-based and learning-based control methods that can support future embodied intelligence systems.
+
+---
+
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hao-Yunlai&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hao-Yunlai&theme=tokyonight&hide_border=true" alt="GitHub Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hao-Yunlai&theme=tokyonight&hide_border=true" alt="GitHub Activity Graph" />
 </p>
 
 ---
+
+## Personal Notes
+
 <p align="center">
-  <img src="maodie1.jpg" width="200" alt="funny image"/>
+  <img src="image.png" width="140" alt="Personal avatar" />
+  <img src="maodie1.jpg" width="140" alt="Personal note image" />
 </p>
 
-<!-- 页脚 -->
+<details>
+<summary>I use Arch, btw</summary>
+
+<p align="center">
+  <img src="./archlinux.png" alt="I use Arch btw" width="360" />
+</p>
+
+</details>
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Hao-Yunlai&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
@@ -99,18 +127,3 @@
 <p align="center">
   <i>"In an ocean of information, we are stranded on the island of amusement."</i>
 </p>
-
-<!--
-**Hao-Yunlai/Hao-Yunlai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
