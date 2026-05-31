@@ -93,17 +93,6 @@ Worked on motion control and embedded implementation for a multi-DOF parallel ro
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hao-Yunlai&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hao-Yunlai&theme=tokyonight&hide_border=true" alt="GitHub Activity Graph" />
-</p>
-
----
-
 ## Personal Notes
 
 <p align="center">
