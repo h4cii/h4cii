@@ -1,118 +1,91 @@
-<h1 align="center">Hao Yunlai | Robotics Control & Embodied AI</h1>
+<div align="center">
 
-<p align="center">
-  <strong>Applied Physics undergraduate at SWJTU</strong><br/>
-  Robotics control, reinforcement learning, dynamics modeling, and embodied intelligence
-</p>
+<img src="./image.png" width="132" alt="Hao Yunlai avatar" />
 
-<p align="center">
-  <a href="mailto:hyl00250083@outlook.com">
-    <img src="https://img.shields.io/badge/Email-hyl00250083-blue?style=flat-square&logo=microsoft-outlook" alt="Email" />
-  </a>
-  <img src="https://img.shields.io/badge/Focus-Robotics%20Control-2f80ed?style=flat-square" alt="Robotics Control" />
-  <img src="https://img.shields.io/badge/Focus-Sim2Real-27ae60?style=flat-square" alt="Sim2Real" />
-  <img src="https://img.shields.io/badge/Focus-Embodied%20AI-8e44ad?style=flat-square" alt="Embodied AI" />
-</p>
+# Hey, I'm Hao Yunlai 👋
 
----
+**I teach robots to move, adapt, and occasionally survive reality.**
 
-## About
+机器人控制 · 强化学习 · Sim2Real · 具身智能
 
-I am a top-ranked undergraduate and national scholarship recipient from the School of Physical Science and Technology, Southwest Jiaotong University, working toward research in robotics and embodied intelligence.
+<a href="mailto:hyl00250083@outlook.com"><img src="https://img.shields.io/badge/Email-FFD21E?style=flat&logo=microsoftoutlook&logoColor=black" alt="Email" /></a>
+<a href="https://h4cii.github.io/#demos"><img src="https://img.shields.io/badge/Robot_Demos-FF9D00?style=flat&logo=ros&logoColor=white" alt="Robot demos" /></a>
+<img src="https://img.shields.io/badge/Focus-Robotics_%2B_AI-34A853?style=flat&logoColor=white" alt="Robotics and AI" />
 
-My current work starts from real robot control: building dynamics-aware policies, training reinforcement learning controllers in simulation, and moving them toward robust Sim2Real deployment. I am especially interested in how model-based control, reinforcement learning, world models, and vision-language-action systems can meet on physical robots.
+</div>
 
-我是西南交通大学物理科学与技术学院应用物理方向本科生，具有较稳定的学业表现和国家级奖学金经历，主要关注机器人运动控制、强化学习、动力学建模与具身智能。我的长期目标是从可落地的机器人控制问题出发，逐步深入到 World Model、VLA 和通用机器人智能方向。
+## 🤗 About me
 
----
+I'm an Applied Physics undergraduate at **Southwest Jiaotong University**, working where robotics control, reinforcement learning, and real hardware meet.
 
-## Research Interests
+我喜欢从动力学与控制问题出发，在仿真中训练和验证策略，再把它们部署到真实机器人上。比起只在 benchmark 上变高的数字，我更关心机器人遇到噪声、延迟和模型偏差时还能不能好好工作。
 
-| Area | Keywords |
-| :--- | :--- |
-| Legged Locomotion | Quadruped control, locomotion policy, terrain adaptation, deployment |
-| Reinforcement Learning | PPO, RSL-RL, Isaac Lab, domain randomization, reward design |
-| Sim2Real Robotics | URDF modeling, actuator limits, sensor noise, real-time control |
-| Dynamics & Control | Robot dynamics, nonlinear systems, optimal control, model predictive control |
-| Sampling-Based Control | Model Predictive Path Integral, drift control, obstacle avoidance |
-| Embodied AI | World models, VLA, robot foundation models, vision-guided policy learning |
+- 🤖 Building controllers for legged and mobile robots
+- 🧠 Training reinforcement learning policies in simulation
+- 🔩 Moving useful behavior from **Sim2Real**
+- 🐧 Daily-driving Arch Linux, because apparently debugging robots was not enough
 
----
+## 🧰 My toolbox
 
-## Featured Work
-
-### Quadruped Reinforcement Learning and Sim2Real
-
-Training locomotion policies for quadruped robots with Isaac Lab, PPO-style reinforcement learning, domain randomization, and robot deployment constraints in mind.
-
-- Built simulation assets and task pipelines around robot morphology, URDF configuration, observation design, and reward shaping.
-- Focused on robustness under model mismatch, actuator limits, terrain variation, and control frequency constraints.
-- Completed encouraging Sim2Real deployment results and am exploring the integration of visual perception with locomotion policies.
-
-### High-Speed Differential-Drive Drift Control
-
-Studying aggressive motion control for a high-speed four-wheel differential-drive robot under nonlinear tire dynamics.
-
-- Modeled tire-ground interaction with a nonlinear Brush Model.
-- Used MPPI to reason over drift control, tracking behavior, and obstacle avoidance in highly nonlinear regimes.
-- Working on turning the system study into a publishable robotics/control research contribution.
-
-### RoboCON Robot Control
-
-Worked on motion control and embedded implementation for a multi-DOF parallel robot in a national-level robotics competition team.
-
-- Responsible for electrical control and motion-control implementation of an 8-DOF parallel mechanism.
-- Built experience with ROS2, RK3588, STM32H7, multi-motor coordination, and real-time debugging.
-- Learned to connect control theory, embedded constraints, mechanical structure, and competition reliability under real hardware pressure.
-
----
-
-## Technical Stack
-
-| Direction | Tools and Experience |
-| :--- | :--- |
-| Robotics | ROS2, robot deployment, multi-motor control, real-time debugging |
-| RL & Simulation | Isaac Lab, Isaac Sim, PPO, RSL-RL, PyTorch, domain randomization |
-| Control & Modeling | MPPI, nonlinear dynamics, Brush Model, MATLAB, Simulink, Simscape Multibody |
-| Embedded Systems | STM32H7, RK3588, C/C++, Linux-based robot systems |
-| Development | Python, C++, Git, Docker, Distrobox, Arch Linux, Ubuntu |
-
-<p align="center">
+<div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,python,c,matlab,pytorch,ros,linux,docker,git,github,vscode,arch" alt="Skill icons" />
+    <img src="https://skillicons.dev/icons?i=cpp,c,python,pytorch,ros,matlab,linux,arch,docker,git,github,vscode&perline=12" alt="Development tools" />
   </a>
-</p>
+</div>
 
----
+<br/>
 
-## Current Focus
+| | Things I enjoy working with |
+| :-- | :-- |
+| 🦿 **Robotics** | ROS2 · quadruped locomotion · URDF · real robot deployment |
+| 🧠 **Learning** | PPO · RSL-RL · PyTorch · domain randomization |
+| 🧪 **Simulation** | Isaac Lab · Isaac Sim · MuJoCo · Simscape |
+| 🎮 **Control** | MPPI · nonlinear dynamics · optimal control · real-time control |
+| 🔌 **Embedded** | STM32H7 · RK3588 · multi-motor systems · hardware debugging |
 
-- Making reinforcement learning policies more deployable on real robots, not only successful in simulation.
-- Combining visual perception with locomotion/control policies for more general robot behavior.
-- Studying model-based and learning-based control methods that can support future embodied intelligence systems.
+## 🎬 Robot demos
 
----
+| 🦿 **Terrain Traversal** | 🔬 **Flat-ground Sim2Real** |
+| :-- | :-- |
+| Quadruped robot walking over a slope and stairs-like terrain. | A locomotion policy running on physical quadruped hardware. |
+| [▶️ Watch terrain demo](https://h4cii.github.io/media/previews/bb710-slope-stairs.mp4) | [▶️ Watch Sim2Real demo](https://h4cii.github.io/media/previews/dfa108-flat-sim2real-muted.mp4) |
 
-## Personal Notes
+> More experiments, fewer presentation slides. That is the plan. 🛠️
 
-<p align="center">
-  <img src="image.png" width="140" alt="Personal avatar" />
-  <img src="maodie1.jpg" width="140" alt="Personal note image" />
-</p>
+## 🌱 Currently exploring
+
+- Making reinforcement learning policies more reliable on physical robots
+- Combining visual perception with locomotion and control
+- Learning how world models and VLA systems can become useful robot brains
 
 <details>
-<summary>I use Arch, btw</summary>
+<summary><b>🪪 A slightly more serious bio</b></summary>
+<br/>
 
-<p align="center">
-  <img src="./archlinux.png" alt="I use Arch btw" width="360" />
-</p>
+I am a top-ranked undergraduate and national scholarship recipient from the School of Physical Science and Technology, Southwest Jiaotong University. My research interests include robot motion control, reinforcement learning, dynamics modeling, and embodied intelligence.
+
+我是西南交通大学物理科学与技术学院应用物理方向本科生，主要关注机器人运动控制、强化学习、动力学建模与具身智能。我的长期目标是从可落地的机器人控制问题出发，逐步深入到 World Model、VLA 和通用机器人智能方向。
+
+</details>
+
+<details>
+<summary><b>🐈 Important runtime information</b></summary>
+<br/>
+
+<div align="center">
+  <img src="./maodie1.jpg" width="180" alt="Personal cat meme" />
+  &nbsp;&nbsp;
+  <img src="./archlinux.png" width="420" alt="People using Arch Linux meme" />
+</div>
+
+```text
+OS      Arch Linux, obviously
+Shell   powered by curiosity
+Uptime  until the robot works
+```
 
 </details>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hao-Yunlai&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
-
-<p align="center">
-  <i>"In an ocean of information, we are stranded on the island of amusement."</i>
+  <sub><i>"In an ocean of information, we are stranded on the island of amusement."</i></sub>
 </p>
